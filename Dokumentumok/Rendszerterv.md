@@ -6,7 +6,7 @@ Ez úgy zajlik, hogy a weboldalon megjelenik 5 cicás kép, ezek közül az egyi
 Ezután a rendszer leellenőrzi, hogy a beküldött megoldás helyes-e, majd frissítést követően újabb cicás képsorozat jelenik meg. 
 
 ## Projektterv
-Projektszerepkörök és felelősségük:
+### Projektszerepkörök és felelősségük:
 - Kiss Dalma: fejlesztő, adminisztrátor
 - Földi Krisztina: adminisztrátor, fejlesztő
 
@@ -14,7 +14,7 @@ Tesztelés:
 - Kiss Dalma
 - Földi Krisztina
 
-Ütemterv:
+### Ütemterv:
 | Funkció / Story | Feladat / Task | Becslés | Eltelt idő | Hátralévő idő |
 | --- | --- | --- | --- | --- |
 | Megbeszélések | Feladatkörök kiosztása, projekt témájának rögzítése | 6 | 4 | 2 |
@@ -24,3 +24,86 @@ Tesztelés:
 | Adattárolás, Adatbázis | Adatmodell megtervezése, Adatbázis megvalósítása | 6 | 4 | 2 |
 | Login felület | Logó készítése | 8 | 4 | 4 |
 | Crud műveletek |  | 8 | 4 | 4 |
+
+## Üzleti folyamatok modellje
+### Üzleti szereplők
+Jelenleg a rendszert, pontosabban magát a játékot csak regisztrált felhasználók érhetik el. Egy gyors regsiztrációt követően használható is az oldal. Az átlagos felhasználóktól eltérően az Adminoknak meg jelenik egy plsuz funkció, "Admin felület" néven, ahol az oldallal kapcsolatos hiba bejelentéseket tudják nyomon követni.
+
+### Üzleti folyamatok
+A bejelentkezés mindenki számára ugyanolyan lefutású a regisztrációt követően. A fő oldalon látható bejelentkező panellbe beírják a felhasználónevüket és jelszavukat, majd a 'Bejelentkezés' gombra kattintva, amennyiben a felhasználó már regsiztrált tag, át dobja a kakukktojás oldalára. Amennyiben olyan felhasználó próbál meg bejelentkezni, aki még nem regisztrált, úgy az oldal hibaüzenetet dob ki. 
+
+A weboldal az átlagos felhasználók számára rendelkezik egy Jelszómódosító, egy Email módosító, egy Kijelentkező, továbbá egy probléma bejelentő menüpontokkal. Amennyiben a user úgy érzi, regisztrációkor rossz e-mail címet adott meg, meg vagy olyan jelszót, amire nem tud emlékezni, úgy azt bármikor módosítani tudja a megfelelő menüpontok alatt. A felhasználó biztonsága érdekében bármikor ki tud jelentkezni az oldalról, ha pedig a használat során hibába fut, úgy jelezni is tudja az adminok felé. Ilyenkor meg kell adnia a felhasználónevét, az e-mail címét, utána pedig választhat a default problémák közül. Ha egyik sem megfelelő annak a problémának, amibe a felhasználó jutott, úgy az Egyéb kategóriára nyomva részletesen leírhatja mi a probléma.
+
+## Követelmények
+### Funkcionális követelmények
+
+A program adatbázisban tárolja a kakukktojásokat, kategória szerint elmentve. A felülethez csak belépés után lehet hozzáférni, amihez szükséges regisztrációkor megadni egy felhasználónevet, egy e-mail címet és egy jelszót, amik szintén adatbázisban lesznek eltárolva. A kezelő felület webes kialakítású, amellyel kakukktojásokat tud generálni a felhasználó, majd ellenőrzés után újra és újra lefrissíteni azt, amivel újabb megolható kakukktojás válik elérhetővé, mindig más és más kakukktojásos feladattal előállva.
+
+### Menüpontok az oldalon:
+
+- Kakukktojás
+- Kijelentkezés
+A kijelentkezés menüpontra kattintva a felhasználó kijelentkezik az oldalról, és csak újabb belépést követően tud hozzáférni az oldal tartalmához.
+
+### Nem funkcionális követelmények:
+
+- gyors betöltési sebesség
+- könnyen átlátható, letisztult és felhasználóbarát felület
+- optimalizált működés
+
+### Törvényi előírások, szabványok:
+
+- GDPR-nak való megfelelés
+- Általános információk
+- Szellemi tulajdon
+- Használat
+- Felelősségi szabályok
+- Technikai követelmények
+- Garancia és kártérítés
+- mmxiii. évi V. törvény
+- Európai Parlament és Tanács 2016. április 27-i (EU) 2016/679 Rendelete
+- mmxi. évi CXII. törvény
+- a szerzői jogról szóló 1999. évi LXXVI. törvény
+- mmi. évi CVIII. törvény
+
+## Funkcionális terv
+### Rendszerszereplők:
+
+- Admin
+- Felhasználó
+- Rendszerhasználati esetek és lefutásaik:
+
+### Admin:
+
+- beléphet a rendszerbe
+- változtathat saját jelszót
+- változtathat saját e-mail címet
+- megnézheti a beérkezett hibajelentéseket
+- játszhat a kakukktojásos feladattal
+- kijelentkezhet
+
+### Felhasználó:
+
+- beléphet a rendszerbe
+- változtathat saját jelszót
+- változtathat saját e-mail címet
+- hibajelentést adhat le
+- játszhat a kakukktojásos feladattal
+- kijelentkezhet
+
+
+### Menü-hierarchiák:
+Menü-hierarchiák:
+
+- Bejelentkezés
+    - Probléma jelentés
+    - Belépés
+    - Regisztráció
+- Bejelentkezve
+    - Probléma jelentés
+    - Cicás dolgok:
+        - Kakukktojás keresés
+    - Profil:
+        - Jelszó váltás
+        - E-mail váltás
+        - Kijelentkezés
