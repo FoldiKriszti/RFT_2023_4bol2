@@ -17,3 +17,13 @@ Böngésző: Chrome
 | Autentikáció | 2023.12.12. | Csak belépés után érhetőek el a megfelelő funkciók | Működik |
 
 Az Alfa tesztelés során a vizsgált elemek közül nem mindegyik működött hibátlanul, ezeket feltétlenül ki kell javítani.
+
+## Béta teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Regisztráció | 2023.12.30 | User létrehozása | Sikeres regisztráció | Hibát nem találtam |
+| Jelszó módosító felület | 2023.12.30 | A weboldal felhasználói tudjanak jelszót módosítani | Működik| Hibát nem találtam |
+| E-mail cím módosítása | 2023.12.30 | A weboldal felhasználó tudjanak e-mail címet módosítani | Nem jelennek meg megfelelően a menüpontok | Hibát találtam |
+| Menüpontok | 2023.12.30 | A menüpontok elérhetők, használhatók | E-mail módosítás oldalról nem jeleníti meg őket| Hibát találtam |
+| Bjelentkezés | 2023.12.30 | A felhasználó képes bejelentkezni | Működik | Hibát nem találtam |
