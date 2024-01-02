@@ -159,3 +159,24 @@ A tesztelő felhasználók visszajelzései alapján a probléma vagy hiba kiküs
 ## Telepítési terv
 
 A szoftver webes felületéhez csak egy ajánlott böngésző telepítése szükséges (Google Chrome, Mozilla Firefox, Opera, Microsoft Edge) külön szoftver nem kell hozzá. A webszerverre közvetlenül az internetről kapcsolódhatunk rá a kliensekre.
+
+## Karbantartási terv
+
+Az alkalmazás folyamatos üzemeltetése és karbantartása, amely magába foglalja a programhibák elhárítását, a belső igények változása miatti módosításokat, valamint a környezeti feltételek változása miatt megfogalmazott program-, illetve állomány módosítási igényeket. Ellenőrizni kell, hogy a jövőben kiadott Android verziókkal kompatibilis-e az aklalmazás.
+
+### Adatbázis karbantartása
+
+- Időnként ellenőrizni kell, hogy az adatbázis megfelelően működik-e, vagyis jól működik-e a rendszer nagy mennyiségű adattal, nincsenek-e duplikált értékek, stb.
+- Az adatbázisban felmerülő hiba esetén be kell ütemezni a webszerver átmeneti leállítását és erről értesíteni kell a felhasználókat.
+
+### Weboldal karbantartása
+
+- Az alkalmazást felhasználói, vagy megrendelői igények szerint lehet bővíten.
+- A weboldal hibajavítása esetén elegendő a frissebb állományokkal felülírni az eredeti állományokat, igény esetén peedig egy gyorsítótár ürítést végezni.
+
+### Karbantartás folyamata
+
+- Corrective Maintenance: A felhasználók által beküldött hibajelentésekben szereplő hibák kijavítása.
+- Adaptive Maintenance: A program naprakészen tartása, finomhangolása.
+- Perfective Maintenance: A szoftver hosszútávú működése érdekében végzett módosítások, mint például az új funkciók.
+- Preventive Maintenance: Olyan problémák elhárítása, kijavítása, amelyek még nem tűnnek fontosnak, de később komoly problémákat okozhatnak.
