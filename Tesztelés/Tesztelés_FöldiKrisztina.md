@@ -14,7 +14,7 @@ Böngésző: Chrome
 | Regisztráció | 2023.12.20. | User létrehozása | Hibás | A user nem jön megfelelően létre az adatbázisban| 
 | Belépés | 2023.12.20. | A megefelelő adatokkal be lehet lépni az oldalra | Működik, előre felvitt usereknél | 
 | Admin számára 'Admin Felület' jelenik meg  | 2023.12.20. | Az Admin felület ahol a benyújtott panaszok jelennek meg, csak az adminnak jelenik meg| Működik | 
-| Autentikáció | 2023.12.12. | Csak belépés után érhetőek el a megfelelő funkciók | Működik |
+| Autentikáció | 2023.12.20. | Csak belépés után érhetőek el a megfelelő funkciók | Működik |
 
 Az Alfa tesztelés során a vizsgált elemek közül nem mindegyik működött hibátlanul, ezeket feltétlenül ki kell javítani.
 
@@ -26,7 +26,7 @@ Az Alfa tesztelés során a vizsgált elemek közül nem mindegyik működött h
 | Jelszó módosító felület | 2023.12.30 | A weboldal felhasználói tudjanak jelszót módosítani | Működik| Hibát nem találtam |
 | E-mail cím módosítása | 2023.12.30 | A weboldal felhasználó tudjanak e-mail címet módosítani | Nem jelennek meg megfelelően a menüpontok | Hibát találtam |
 | Menüpontok | 2023.12.30 | A menüpontok elérhetők, használhatók | E-mail módosítás oldalról nem jeleníti meg őket| Hibát találtam |
-| Bjelentkezés | 2023.12.30 | A felhasználó képes bejelentkezni | Működik | Hibát nem találtam |
+| Bejelentkezés | 2023.12.30 | A felhasználó képes bejelentkezni | Működik | Hibát nem találtam |
 
 ## Béta teszt 2.0
 
