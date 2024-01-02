@@ -107,3 +107,15 @@ Menü-hierarchiák:
         - Jelszó váltás
         - E-mail váltás
         - Kijelentkezés
+
+## Fizikai környezet
+
+Az alkalmazás Android és webes platformra készül. Elsősorban böngészőben lehet megnyitni, Mozilla, Safari, Chrome és Opera böngészőkben működőképes. Nincsenek sem megvásárolt komponenseink, sem alkalmazáson belüli mikrotranzakciók.
+
+Eszközök, amiket a fejlesztéshez használunk:
+
+- Visual Studio Code
+- Notepad
+- GitKraken
+- GitHub
+- Trello
