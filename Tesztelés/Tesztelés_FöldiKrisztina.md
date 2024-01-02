@@ -27,3 +27,13 @@ Az Alfa tesztelés során a vizsgált elemek közül nem mindegyik működött h
 | E-mail cím módosítása | 2023.12.30 | A weboldal felhasználó tudjanak e-mail címet módosítani | Nem jelennek meg megfelelően a menüpontok | Hibát találtam |
 | Menüpontok | 2023.12.30 | A menüpontok elérhetők, használhatók | E-mail módosítás oldalról nem jeleníti meg őket| Hibát találtam |
 | Bjelentkezés | 2023.12.30 | A felhasználó képes bejelentkezni | Működik | Hibát nem találtam |
+
+## Béta teszt 2.0
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Kakukktojás játék létrehozása | 2024.01.02 |A felhasználó belépés után a játék oldalára kerül | Működik | Hibát nem találtam |
+| Képek megjelenése | 2024,01,02 | A képek megfelelően megjelennek az oldalon| Működik| Hibát nem találtam |
+| Megoldás rögzítése | 2024.01.02 | A felhasználó be tudja jelölni az általa vélt helyes megoldást | Működik | Hibát nem találtam |
+| Megoldás beküldése | 2024.01.02 | A felhasználó képes beküldeni a megfejtést | Működik| Hibát nem találtam |
+| Megoldás helyessége | 2024.01.02 | A rendszer helyesen ítéli meg a beküldött megfejtést| Nem működik, gyakran hamis megoldást ad vissza | Hibát  találtam |
