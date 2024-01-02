@@ -119,3 +119,7 @@ Eszközök, amiket a fejlesztéshez használunk:
 - GitKraken
 - GitHub
 - Trello
+
+## Architekturális terv
+
+Hogy megfelelően működhessen a rendszerünk, szükségünk van egy adatbázis szerverre, mi pedig az Apache-ot használjuk erre a célra. A programunkat PHP segítségével fejlesztjük, ez csatlakozik az adatbázis szerverhez. A felhasználók nevét és jelszavát mentjük ebbe, illetve az email címüket.
