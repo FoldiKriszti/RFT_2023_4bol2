@@ -30,7 +30,7 @@ Előfeltételek:
 *	adminisztrátorok és felhasználók részére a rendszer használatához jogosultság, azaz regisztráció szükséges
 
 Követelmény:
-- önnyen üzemeltethető rendszer.
+- Köönnyen üzemeltethető rendszer.
 - Reszponzív, könnyen átlátható, stílusos dizájn.
 - Bejelentkezés, regisztráció, kijelentkezés.
 - Kakukktojás keresés, képekkel, szöveggel, rendezve.
