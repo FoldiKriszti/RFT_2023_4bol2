@@ -127,3 +127,12 @@ Hogy megfelelően működhessen a rendszerünk, szükségünk van egy adatbázis
 ## Adatbázis terv
 
 ![Adatbazis](https://github.com/FoldiKriszti/RFT_2023_4bol2/assets/148250923/27c93d20-5fe4-496e-9f42-2a9a2a6146e2)
+
+## Implementációs terv
+### Web application
+
+A webes felület főként PHP és CSS nyelven fog készülni. A technológiákat amennyire csak lehet külön fájlokba írva készítjük, és úgy kapcsoljuk össze őket a jobb átláthatóság és többszöri könnyebb felhasználhatóság érdekében.
+
+### Database
+
+A szolgáltatásunk használatát tekintve elengedhetetlen az adatbázis használata, így a felhasználók abban lesznek elmentve. Az átláthatóság érdekében külön adatbázisba kerülnek mentésre a regisztrált felhasználók adatai. Ezek használatához az Apache rendszerét választottuk.
