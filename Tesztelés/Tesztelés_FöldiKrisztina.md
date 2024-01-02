@@ -15,4 +15,4 @@ Böngésző: Chrome
 | Admin számára 'Admin Felület' jelenik meg  | 2023.12.20. | Az Admin felület ahol a benyújtott panaszok jelennek meg, csak az adminnak jelenik meg| Működik | 
 | Autentikáció | 2023.12.12. | Csak belépés után érhetőek el a megfelelő funkciók | Működik |
 
-Az Alfa tesztelés során a vizsgált elemek közül nem mindegyik működött hibátlanul, javításra szorulnak. 
+Az Alfa tesztelés során a vizsgált elemek közül nem mindegyik működött hibátlanul, ezeket feltétlenül ki kell javítani.
