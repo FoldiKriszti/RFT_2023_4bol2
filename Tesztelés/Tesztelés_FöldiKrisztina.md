@@ -3,6 +3,7 @@
 Teszteléseket végezte: Földi Krisztina
 
 Operációs rendszer: Windows 10
+
 Böngésző: Chrome
 
 
