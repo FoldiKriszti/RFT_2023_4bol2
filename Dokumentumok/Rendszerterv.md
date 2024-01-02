@@ -155,3 +155,7 @@ A tesztelő felhasználók visszajelzései alapján a probléma vagy hiba kiküs
     - Tudnia kell csatlakozni webes klienshez, Windows-on, Linux-on, MacOS-en és Android-on is
     - Képeesnek kell lennie kiszolgálni egyszerre több klienst is
     - Tudnia kell feltölteni és lekérdezni az adatbázisból a szükséges adatokat
+
+## Telepítési terv
+
+A szoftver webes felületéhez csak egy ajánlott böngésző telepítése szükséges (Google Chrome, Mozilla Firefox, Opera, Microsoft Edge) külön szoftver nem kell hozzá. A webszerverre közvetlenül az internetről kapcsolódhatunk rá a kliensekre.
