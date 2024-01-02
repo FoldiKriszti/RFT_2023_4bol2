@@ -136,3 +136,22 @@ A webes felület főként PHP és CSS nyelven fog készülni. A technológiákat
 ### Database
 
 A szolgáltatásunk használatát tekintve elengedhetetlen az adatbázis használata, így a felhasználók abban lesznek elmentve. Az átláthatóság érdekében külön adatbázisba kerülnek mentésre a regisztrált felhasználók adatai. Ezek használatához az Apache rendszerét választottuk.
+
+## Tesztterv
+
+A tesztelések célja a weboldal helyességének és megfelelő módon történő működésének ellenőrzése, a rendszer által megvalósított üzleti szolgáltatások verifikálása.
+
+### Unit és Alfa teszt
+
+A teszt elsődleges célja az eddig meglévő funkciók különböző böngészőkkel való kompatibilitásának tesztelése folyamatosan, még a fejlesztés időtartama alatt. Ezt a tesztet a fejlesztők végzik, és az eljárás akkor sikeres, ha a különböző funkciók megfelelően működnek a különböző böngészőkben és operációs rendszereken. A teszt időtartama egy hét.
+
+### Beta teszt
+
+A tesztelő felhasználók visszajelzései alapján a probléma vagy hiba kiküszöbölése ennek a tesztnek a feladata. Ha hibát találnak a tesztelő felhasználók, a fejlesztők feladata a Beta teszt időszakában a lehető leghamarabb kijavítani azt. A teszt időtartama egy hét, azonban ha túl sok hiba merül fel, a teszt közben, akkor a tesztelés elhúzódhat plusz egy héttel. A tesztet nem a fejlesztők végzik, ettől függetlenül ki kell próbálni a programot a legtöbb böngészőben, mint például Goole Chrome, Mozilla Firefox, Microsoft Edge, illetve Opera.
+
+### Tesztelendő funkciók
+
+- Backend: 
+    - Tudnia kell csatlakozni webes klienshez, Windows-on, Linux-on, MacOS-en és Android-on is
+    - Képeesnek kell lennie kiszolgálni egyszerre több klienst is
+    - Tudnia kell feltölteni és lekérdezni az adatbázisból a szükséges adatokat
