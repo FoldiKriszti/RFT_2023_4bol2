@@ -123,3 +123,7 @@ Eszközök, amiket a fejlesztéshez használunk:
 ## Architekturális terv
 
 Hogy megfelelően működhessen a rendszerünk, szükségünk van egy adatbázis szerverre, mi pedig az Apache-ot használjuk erre a célra. A programunkat PHP segítségével fejlesztjük, ez csatlakozik az adatbázis szerverhez. A felhasználók nevét és jelszavát mentjük ebbe, illetve az email címüket.
+
+## Adatbázis terv
+
+![Adatbazis](https://github.com/FoldiKriszti/RFT_2023_4bol2/assets/148250923/27c93d20-5fe4-496e-9f42-2a9a2a6146e2)
