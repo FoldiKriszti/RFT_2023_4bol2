@@ -33,3 +33,7 @@ Felelősségi szabályok A Tulajdonos fenntartja magának a jogot arra, hogy ame
 ## Jelenlegi üzleti folyamatok modellje
 
 Jelenleg szeretnénk kibővíteni a weboldalunkon a képek számát, hiszen a felhasználók hamar beleunhatnak ugyanazokba a képekbe és el is veszthetik az érdeklődésüket. Az adatbázisunkat is lehetne bővíteni, hogy több felhasználó férjen el, plusz ha valaki nem szeretne regisztrálni, vendégként be tudjon lépni az oldalunkra.
+
+## Igényelt üzleti folyamatok modellje
+
+A felhasználók regisztrálnak és bejelentkeznek, így el tudják kezdeni a kakukktojás keresést. Amint lefrissítik az oldalt, új kakukktojás feladatot kapnak, ami szintén megtörténik, ha a felhasználó ellenőrzi, hogy jó képet választott-e.
