@@ -1,11 +1,10 @@
 
-body{background-color:lightgray;
+body{background-color:burlywood;
 color:white;
 margin:0px;
 }
 
-.main{background-color:darkgray;
-float: bottom;
+.main{background-color:burlywood;
 margin-top: 2%;
 margin-bottom: 2%;
 display: inline-block;
@@ -46,7 +45,7 @@ width: 500%;
 
 .border{
     border: solid 2px var(--pGray1);
-    background: grey;
+    background: burlywood;
     margin: 6px 0 0 0;
 }
 .cim{
