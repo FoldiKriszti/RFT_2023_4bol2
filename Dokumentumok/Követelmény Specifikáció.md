@@ -52,3 +52,7 @@ Követelménylista K01 Könnyen üzemeltethető rendszer K02 Reszponzív dizájn
 
 - Hány kakukktojás legyen?
 - Minél több, annál jobb, hiszen a felhasználóknak is jobb élményt nyújt, ha nem mindig ugyanazokat a képeket és feladványokat látják.
+
+## Fogalomtár
+
+login = belépés
