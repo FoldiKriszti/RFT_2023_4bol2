@@ -43,3 +43,11 @@ Talált hibák: 2
 - Amennyiben az Admin megoldása helyes, úgy az alábbi szöveg jelenik meg a felugró ablakon: Gratulálunk, eltatáltad a helyes megfejtést!
 - Amennyiben az Admin rossz megfejtést küld be, úgy az alábbi üzenet jelenik meg a felugró ablakban: Nem jó megoldást küldtél be, majd legközelebb!
 - Hiba: A játék során nem mindig ítéli meg helyesen a rendszer, hogy a beküldött megoldás helyes volt-e vagy sem. Előfordul, hogy a helyes megoldásnál a "Nem jó megoldást küldtél be, majd legközelebb" üzenetet dobja be, a rossz megoldásnál pedig "Gratulálunk, eltaláltad a helyes megfejtést!"
+
+## Admin felület 
+
+- Az Admin felület menüöpont csak az admin felhasználók számára jelenik meg
+- HIBA: Az Admin csak a Kakukktojás megkeresése oldalról tudja elérni az Admin felületet.
+- Az Admin felületen egy tánlázatban megjelenik a felhasználó neve, e-mail címe, probléma típusa, illetve egy bővebben rész, ahol látható részletesen mi a probléma
+- Az oldal reszponzív, a feliratok megjelennek
+- Amennyiben egy felhasználó nem töltötte ki a megfelelő adatokat a probléma bejelntés menüponton, úgy ezek a jelentések nem jelennek meg.
