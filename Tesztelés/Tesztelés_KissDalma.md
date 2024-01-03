@@ -25,3 +25,12 @@ Az Alfa teszt során a vizsgáált elemek közül nem működött mindegyik, íg
 | Bejelentkezés | 2023.12.31. | A regisztrált adatokkal sikeres bejelentkezés | Sikeres | Nincs | 
 | Menü | 2023.12.31. | A különböző menüpontok láthatók és használhatók | Sikeres | Nincs |
 | E-mail cím módosítás | 2023.12.31. | A e-mail cím sikeres módosítása | Sikeres | Nincs |
+
+## Béta teszt 2.0 
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | ---| --- | --- |
+| Bejelentkezés | 2024.01.02. | Bejelentkezés után a kakukktojás játék oldalára dob | Sikeres | Nincs |
+| Képek | 2024.01.02. | A képek hiba nélkül megjelennek az oldalon | Sikeres | Nincs |
+| Megoldás beküldése | 2024.01.02. | Sikeres beküldés | Sikeres | Nincs |
+| Megoldás helyessége | 2024.01.02. | A rendszer megfelelően el tudja dönteni, hogy helyes-e a válasz vagy sem | Félig sikeres | Pár alkalommal nem fogadja el a helyes megoldást | 
