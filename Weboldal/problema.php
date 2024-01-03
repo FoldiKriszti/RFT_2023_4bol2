@@ -74,8 +74,8 @@ session_start();
 </nav>
 <div class="login">
 <form name="report" method="POST" action="#">
-        Felhasználónév: <br><input type="text" name="name"><br>
-        Email: <br><input type="email" name="email"><br>
+        Felhasználónév: <br><input type="text" name="name" required><br>
+        Email: <br><input type="email" name="email" required><br>
         Milyen problémával találkozott? <br>
         <select name="problem">
             <option value="need tutorial">Nem találom a kakukktojást!</option>

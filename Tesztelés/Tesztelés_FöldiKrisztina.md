@@ -36,4 +36,29 @@ Az Alfa tesztelés során a vizsgált elemek közül nem mindegyik működött h
 | Képek megjelenése | 2024,01,02 | A képek megfelelően megjelennek az oldalon| Működik| Hibát nem találtam |
 | Megoldás rögzítése | 2024.01.02 | A felhasználó be tudja jelölni az általa vélt helyes megoldást | Működik | Hibát nem találtam |
 | Megoldás beküldése | 2024.01.02 | A felhasználó képes beküldeni a megfejtést | Működik| Hibát nem találtam |
-| Megoldás helyessége | 2024.01.02 | A rendszer helyesen ítéli meg a beküldött megfejtést| Nem működik, gyakran hamis megoldást ad vissza | Hibát  találtam |
+| Megoldás helyessége | 2024.01.02 | A rendszer helyesen ítéli meg a beküldött megfejtést| Nem működik, gyakran hamis megoldást ad vissza | Hibát találtam |
+
+## Béta teszt 3.0
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Kakukktojás játék bővítés| 2024.01.03 | A játék képei bővítésre kerültek, helyettesítő képek lecserélése | Az új képek hozzáadása sikeresen megtörtént | Hibát nem találtam |
+| Képek megjelenése | 2024.01.03 | A képek megfelelően megjelennek az oldalon| Két sorozaton belül előfordult egy egy kép, ami nem jelent meg| Hibát találtam |
+| Megoldás rögzítése | 2024.01.03 | A felhasználó be tudja jelölni az általa vélt helyes megoldást | Működik | Hibát nem találtam |
+| Megoldás beküldése | 2024.01.03 | A felhasználó képes beküldeni a megfejtést | Működik| Hibát nem találtam |
+| Megoldás helyessége | 2024.01.03 | A rendszer helyesen ítéli meg a beküldött megfejtést| Nem működik, gyakran hamis megoldást ad vissza | Hibát találtam |
+
+## Végleges teszt
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Regisztráció | 2024.01.03 | Regisztrálás a weboldalra | Sikerült fiókot regisztrálni | Megfelelő |
+| Belépés | 2024.01.03 | Bejelentkezés a weboldalra | Sikerült belépni a weboldalra | Megfelelő |
+| Profil | 2024.01.03 | A felhasználó tudja szerkeszteni a jelszavát és email címét | Módosítás müködik |  Megfelelő |
+| Kakukktojás játék megjelenése | 2024.01.03 | A játék megjelenik a weboldalon | Megtekinthető, és használható. | Megfelelő |
+| Admin funkciók | 2024.01.03 | Admin panel megjelenése, láthatósága | Csak admin jogosultsággal működnek a funkciók. | Megfelelő |
+
+A rendszer rendelkezik kisebb hibákkal, nem áll készen az átadásra.
+
+Tesztelést végezte és írta: Földi Krisztina
+
+Befejezve: 2024.01.03
