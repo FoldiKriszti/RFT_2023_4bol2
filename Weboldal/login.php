@@ -66,12 +66,12 @@ session_start();
 <div class="wr">
 <div class="desc">
 	<div class="p-3 mb-2 bg-light text-dark">
-		Ez webhely egy már meglévő webhelyet fog bővíteni. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		Excepteur sint occaecat cupidatat non proident.
-		Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-		(A "Cicák" (bal fent) felíratra kattintva bármikor vissza jöhetsz ide!)
-		<h5>Készítette: A Kiscica csapat</h5>
+  Üdvözöljük weboldalunkon, ahol egyedi és izgalmas funkciókkal várjuk mind az új, mind a meglévő felhasználóinkat! Célunk egy interaktív és kihívásokkal teli felhasználói élmény nyújtása, emellett pedig fontosnak tartjuk a biztonságot és a fejlesztéseink átláthatóságát. <br> <br>
+  A weboldalunkon számos érdekes lehetőség található, kezdve a probléma jelentő oldallal, ahol felhasználóink könnyedén tudnak észrevételeket tenni, és segíteni a platformunk fejlesztésében. Emellett lehetőség van a jelszó és e-mail módosításra, így mindig biztosak lehetnek abban, hogy a személyes információik frissek és biztonságban vannak. <br> <br>
+  A kijelentkezés menüpont segítségével könnyedén zárhatják be a munkamenetüket, és adataik védelmét is biztosíthatják. Azonban a legizgalmasabb rész talán a kakukktojás oldal, ahol egyedi kihívások várnak mindenkit. A felhasználóknak öt kép közül kell kiválasztaniuk a kakukktojást, és a helyes válasz beküldésével tesztelhetik észlelési és elemző képességeiket. A sokszínű tematika garantálja, hogy mindenki megtalálja a számára megfelelő kihívást, legyen az könnyű vagy éppen nehezebb feladvány. <br> <br>
+  Az adminisztrátorok számára kialakított speciális felület lehetővé teszi számukra, hogy könnyen és hatékonyan kezeljék a felhasználók által beküldött hibaüzeneteket, biztosítva ezzel a weboldal zavartalan működését és a felhasználói élmény magas színvonalát. <br> <br>
+  Csatlakozz hozzánk, és fedezd fel a kreativitást, kihívásokat és szórakozást egy olyan weboldalon, amely mindig friss és izgalmas tartalommal vár téged! <br> <br>
+		<h5>Készítette: A 4ből2 csapat</h5>
 	</div>
 </div>
 
