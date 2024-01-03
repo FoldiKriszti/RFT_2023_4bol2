@@ -40,3 +40,14 @@ Talált hibák: 2
 - Amennyiben a felhasználó megoldása helyes, úgy az alábbi szöveg jelenik meg a felugró ablakon: Gratulálunk, eltatáltad a helyes megfejtést!
 - Amennyiben a felhasználó rossz megfejtést küld be, úgy az alábbi üzenet jelenik meg a felugró ablakban: Nem jó megoldást küldtél be, majd legközelebb!
 - Hiba: A játék során nem mindig ítéli meg helyesen a rendszer, hogy a beküldött megoldás helyes volt-e vagy sem. Előfordul, hogy a helyes megoldásnál a "Nem jó megoldást küldtél be, majd legközelebb" üzenetet dobja be, a rossz megoldásnál pedig "Gratulálunk, eltaláltad a helyes megfejtést!"
+
+## Felhasználó probléma bejelentésének tesztelése
+
+- A felhasználó minden oldalon eléri a probléma bejelentési fület
+- Ha a felhasználó üresen hagyja az egészet, úgy nem küldi el, csak lefrissíti az oldalt, az Admin részen nem jelenik meg az Admin felületen
+- Ha a felhasználó nem tölti ki a felhasználónevet, úgy az oldal lefrissít és nem küldi el a hiba bejelentést, admin felületen nem jelenik meg.
+- Ha a felhasználó nem tölti ki az e-mail címét, úgy az oldal lefrissít és nem küldi el a hiba bejelentést, admin felületen nem jelenik meg.
+- Ha a felhasználó nem helyes formátumban adja meg az e-mail címet, az alábbi hibaüzenet jelenik meg: Kérjük, írjon egy "@" az e-mail címbe. A(z) "megadottemail" címből hiányzik a "@" jel.
+- Amennyiben a felhasználó a "@" jel utáni részt nem megfelelően adja meg, az alábbi hibaüzenet jelenik meg: Kérjük adja meg a "@" utáni részt is. A(z) "megadott@" cím nem teljes
+- Amennyiben a felhasználó sikeresen megadta a felhasználó nevét és e-mail címét, kiválasztotta a problémát, az alábbi üzenet jelenik meg: A probléma bejelentés megtörtént!
+- Ha a felhasználó 6000 karakternél többet szeretne írni, a rendszer nem enged több karaktert írni.
