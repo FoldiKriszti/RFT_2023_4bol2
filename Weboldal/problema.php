@@ -78,17 +78,17 @@ session_start();
         Email: <br><input type="email" name="email"><br>
         Milyen problémával találkozott? <br>
         <select name="problem">
-            <option value="need tutorial">Nem tudok kakukktojást keresni!</option>
-            <option value="tuljatekos cica">A cicám nem hagy játszani!</option>
-            <option value="Ugyes cica">A cicám jobban keresi a kakukktojást mint én!</option>
-            <option value="No kakukktojas">Nem látok kakukktojást!</option>
-            <option value="vicces vagyok">Én csak csirke tojást látok!</option>
-            <option value="Troll">Egy hal van kádamban!</option>
+            <option value="need tutorial">Nem találom a kakukktojást!</option>
+            <option value="tuljatekos cica">Nem jeleníti meg a megoldást a weboldal!</option>
+            <option value="Ugyes cica">Nem tudok kijelentkezni!</option>
+            <option value="No kakukktojas">Nem tudom a jelszavamat módosítani!</option>
+            <option value="vicces vagyok">Nem tudom az e-mail címemet módosítani!</option>
+            <option value="Troll">Nem jelennek meg a képek!</option>
             <option value="Teszt">Csak ki akartam porbálni működik-e.</option>
             <option value="Egyéb">Egyéb</option>
         </select>
         <br>
-        Kérem írja le hogy találkozott a problémával. (max 6000 karakter): 
+        Kérjük írja milyen hibával találkozott. (max 6000 karakter): 
         <br>
         <textarea name="bovebb" cols="45" rows="6" style="resize: none;" maxlength="6000"></textarea><br>
         <input type="submit" value="Küldés">
@@ -96,7 +96,7 @@ session_start();
 <?php
         if(isset($_POST["name"]) && isset($_POST["email"]) && $_POST["email"] != null && $_POST["name"] != null && isset($_POST["email"]) && $_POST["email"] !=null && !empty($_POST["problem"])){
             reportIssue($conn,$_POST["name"],$_POST["email"],$_POST["problem"],$_POST["bovebb"]);
-            echo "A probléma jelentés elküldve!";
+            echo "A probléma bejelentés megtörtént!";
         }
     ?>
 </div>
