@@ -76,10 +76,8 @@ session_start();
 </div>
 
 <div class="cat">
-	<img src="mainkepek/cat1.jpg" class="img-fluid img-thumbnail" alt="mainkepek/cat1.jpg">
+	<img src="mainkepek/icon.jpg" class="img-fluid img-thumbnail" alt="mainkepek/icon.jpg">
 </div>
-</div>
-
 
 <div class="mainlogin">
 <form name="login" method="POST" action="#">
