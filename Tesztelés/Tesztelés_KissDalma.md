@@ -34,3 +34,14 @@ Az Alfa teszt során a vizsgáált elemek közül nem működött mindegyik, íg
 | Képek | 2024.01.02. | A képek hiba nélkül megjelennek az oldalon | Sikeres | Nincs |
 | Megoldás beküldése | 2024.01.02. | Sikeres beküldés | Sikeres | Nincs |
 | Megoldás helyessége | 2024.01.02. | A rendszer megfelelően el tudja dönteni, hogy helyes-e a válasz vagy sem | Félig sikeres | Pár alkalommal nem fogadja el a helyes megoldást | 
+
+## Végleges teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | ---| --- | --- |
+| Regisztráció | 2024.01.03. | Felhasználó léttrehozása | Sikeres | Nincs |
+| Bejelentkezés | 2024.01.03. | Sikeres bejelentkezés a regisztrált fiókkal | Sikeres | Nincs |
+| Kakukktojás játék | 2024.01.03. | A játék jól működik | Sikeres | Nincs | 
+| Menü | 2024.01.03. | Megfelelően megjelenik és működik | Sikeres | Nincs |
+
+A rendszer kisebb kibákkal rendelkezik, nem áll készen az átadásra.
