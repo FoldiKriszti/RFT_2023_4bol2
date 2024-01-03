@@ -20,7 +20,7 @@ session_start();
     
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="login.php">Cicák!</a>
+    <a class="navbar-brand" href="login.php">Főoldal</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -62,11 +62,54 @@ session_start();
         <input type="submit" value="Register">
     </form>
     </div>
-    <?php
-        if(isset($_POST["name"]) && isset($_POST["password"]) && $_POST["password"] != null && $_POST["name"] != null && isset($_POST["email"]) && $_POST["email"] !=null){
-            echo "Sikeres regisztráció!";
-            regUser($conn, $_POST["name"], md5($_POST["password"]),$_POST["email"]);
+
+    <?php 
+
+        $name = ''; 
+        $password = '';  
+        $hibauzenetek = []; 
+        if($_SERVER['REQUEST_METHOD'] == 'GET')
+        {
+          
         }
-    ?>
+        if($_SERVER['REQUEST_METHOD'] == 'POST'){
+            if(array_key_exists('name', $_POST)) $name = $_POST['name'];
+            if(array_key_exists('password', $_POST)) $password = $_POST['password'];
+
+            if(!array_key_exists('name', $_POST)){ 
+                $hibauzenetek[] = 'A username kötelező!';
+            }
+            else if(strlen($_POST['name']) < 6){
+                $hibauzenetek[] = 'A username 6 karakterből kell állnia!';
+            }
+
+            if(!array_key_exists('password', $_POST)){
+                $hibauzenetek[] = 'A password megadása kötelező!';
+            }
+            else if(strlen($_POST['password']) < 8){
+                $hibauzenetek[] = 'A password legalább 8 karakter!';
+            }
+
+            else if(isset($_POST["name"]) && isset($_POST["password"]) && $_POST["password"] != null && $_POST["name"] != null && isset($_POST["email"]) && $_POST["email"] !=null){
+              echo "Sikeres regisztráció!";
+              regUser($conn, $_POST["name"], md5($_POST["password"]),$_POST["email"]);
+          }
+
+
+        }
+
+      
+  ?>
+
+    <?php if(count($hibauzenetek) != 0): ?>
+        <p>A validálás során az alábbi hibák merültek fel:</p>
+        <ul>
+            <?php for($i = 0; $i < count($hibauzenetek); $i++): ?>
+                <li><?=$hibauzenetek[$i]?></li>
+            <?php endfor;?>
+        </ul>
+    <?php endif; ?>
+
+
 </body>
 </html>
