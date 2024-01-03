@@ -47,7 +47,11 @@ INSERT INTO `feladvany` (`id`, `kep1`, `kep2`, `kep3`, `kep4`, `kep5`, `megoldas
 (3, 'kepek/osz4.jpg', 'kepek/osz3.jpg', 'kepek/osz2.jpg', 'kepek/osz1.jpg', 'kepek/tel1.jpg', 5),
 (4, 'kepek/zold1.jpg', 'kepek/gyum4.jpg', 'kepek/gyum2.jpg', 'kepek/gyum1.jpg', 'kepek/gyum3.jpg', 1),
 (5, 'kepek/zold3.jpg', 'kepek/zold4.jpg', 'kepek/zold5.jpg', 'kepek/gyum5.jpg', 'kepek/zold2.jpg', 4),
-(6, 'kepek/ember1.jpg', 'kepek/ember2.jpg', 'kepek/ember3.jpg', 'kepek/kuka1.jpg', 'kepek/ember4.jpg', 4);
+(6, 'kepek/ember1.jpg', 'kepek/ember2.jpg', 'kepek/ember3.jpg', 'kepek/kuka1.jpg', 'kepek/ember4.jpg', 4),
+(7, 'kepek/auto1.jpg', 'kepek/auto2.jpg', 'kepek/rep1.jpg', 'kepek/auto3.jpg', 'kepek/auto4.jpg', 3),
+(8, 'kepek/szin1.jpg', 'kepek/kek2.jpg', 'kepek/szin4.jpg', 'kepek/szin3.jpg', 'kepek/szin2.jpg', 2),
+(9, 'kepek/fest4.jpg', 'kepek/fest3.jpg', 'kepek/fest2.jpg', 'kepek/fest1.jpg', 'kepek/szob1.jpg', 5),
+(10, 'kepek/fest5.jpg', 'kepek/szob2.jpg', 'kepek/szob3.jpg', 'kepek/szob5.jpg', 'kepek/szob4.jpg', 1);
 -- --------------------------------------------------------
 
 --
