@@ -57,8 +57,7 @@ Az Alfa tesztelés során a vizsgált elemek közül nem mindegyik működött h
 | Kakukktojás játék megjelenése | 2024.01.03 | A játék megjelenik a weboldalon | Megtekinthető, és használható. | Megfelelő |
 | Admin funkciók | 2024.01.03 | Admin panel megjelenése, láthatósága | Csak admin jogosultsággal működnek a funkciók. | Megfelelő |
 
-A Végleges teszt lezajlott és minden funkció rendesen működik, esztétikailag is megfelelő a program.
-Átadásra készen áll.
+A rendszer rendelkezik kisebb hibákkal, nem áll készen az átadásra.
 
 Tesztelést végezte és írta: Földi Krisztina
 
