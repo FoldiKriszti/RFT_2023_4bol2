@@ -1,13 +1,20 @@
 # Teszt jegyzőkönyv
 
 Tesztelést végezte: Földi Krisztina
+
 Operációs rendszer: Windows 10
+
 Böngésző: Google Chrome
+
+
 Dátum: 2024.01.03
+
+
 Talált hibák száma: 1
 
+
 ## Átlagos felhasználók rendszerhasználatának tesztelése
-### Felhasználó regsiztrálása
+### Felhasználó regisztrálása
 -   A regsiztrálás a főoldalon lévő bejelentkező ablak alján levő link alapján, vagy a mennüpontok közül a regisztrációra kattintva betöltődik a regisztrációs oldal.
 -   Ha nem adom meg a felhasználónevet, az alábbi üzenet jelenik meg: Kérjük töltse ki ezt a mezőt.
 -   Ha nem adom meg a jelszavat, az alábbi üzenet jelenik meg: Kérjük töltse ki ezt a mezőt.
