@@ -11,3 +11,11 @@ A weboldalunk legnagyobb problémája, hogy a felhasználók megunják a várako
 ## Vágyálom rendszer
 
 A projekt célja, hogy szeretnénk egy kis szórakozást vinni a már meglévő weblapunkba, és egyúttal regisztrációs rendszert is. Célunk, hogy a weboldal könnyen üzemeltethető legyen. Az online megjenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel. Azt szeretnénk ha a felhasználó nem férne hozzá semmihez, amíg nem regisztrál, és nem lép be. Az oldalra egy kakukktojást szeretnénk, ami mindig változik, ha frissül az oldal, vagy ellenőrzi a felhasználó, hogy jó-e a megoldása. Az oldal navigációs sávjában lévő, kijelenzkezés, és egyéb funkciónak működnie kell.
+
+## Funkcionális követelmények
+
+A program adatbázisban tárolja a kakukktojásokat, kategória szerint elmentve. A felületet csak bejelentkezés után lehet elérni, ehhez szükséges egy regisztráció, aminél meg kell adni egy felhasználónevet, egy e-mail címet és egy jelszót, ezek szintén az adatbázisban kerülnek elmentésre. A kezelő felület webes kialakítású, amellyel kakukktojásokat tud generálni a felhasználó, majd ellenőrzés után újra és újra lefrissíteni azt, amivel újabb megolható kakukktojás válik elérhetővé, mindig más és más kakukktojásos feladattal előállva. A kijelentkezés menüpontra kattintva a felhasználó kijelentkezik az oldalról, és csak újabb belépést követően tud hozzáférni az oldal tartalmához.
+
+Menüpontok:
+- Kakukktojás
+- Kijelentkezés
