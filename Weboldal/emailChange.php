@@ -17,12 +17,12 @@ session_start();
     require_once "connect.php";
     require_once "crud/Update.php";
     ?>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="login.php">Főoldal</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="login.php">Főoldal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
@@ -31,62 +31,27 @@ session_start();
           </a>
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
 			  <li><a class="dropdown-item" href="problema.php">Probléma bejelentése</a></li>
-            <?php
-      if(!isset($_SESSION["id"])){
-        echo '
-			<a class="dropdown-item" href="login.php">Belépés</a>
-			<a class="dropdown-item" href="register.php">Regisztráció</a>
-			';
-        }else{
-          if(isAdmin($conn,$_SESSION["user"])){
-            echo '
-            <li class="dropdown-item">
-            <h6>Játékok:</h6>
-                      <a class="dropdown-item" href="kakukk.php">Kakukktojás megkeresése</a>
-                      <a class="dropdown-item" href="admin.php">Admin felület</a>
-            <li class="dropdown-item">
-            <h6>Műveletek:</h6>
-            <a class="dropdown-item" href="passwordChange.php">Jelszó megváltoztatása</a>
-            <a class="dropdown-item" href="emailChange.php">E-mail megváltoztatása</a>
-            <a class="dropdown-item" href="logout.php">Kijelentkezés<i class="glyphicon glyphicon-log-out"></i></a>
-          </li>
-            <script>console.log("    admin   ")</script>';
-          }else{
-            
-            echo '
-                <li class="dropdown-item">
-                <h6>Játékok:</h6>
-              <a class="dropdown-item" href="kakukk.php">Kakukktojás megkeresése</a>
-                <li class="dropdown-item">
-                <h6>Műveletek:</h6>
-                  <a class="dropdown-item" href="passwordChange.php">Jelszó megváltoztatása</a>
-                  <a class="dropdown-item" href="emailChange.php">E-mail megváltoztatása</a>
-                  <a class="dropdown-item" href="logout.php">Kijelentkezés<i class="glyphicon glyphicon-log-out"></i></a>
-              </li>
-        ';
-      }
-      }
-      ?>
-  </div>
-    </nav>
-    
-    <?php
-    if(isset($_SESSION['id'])){
-      echo '
-      <div class="login">
-    <form name="passwordChange" method="POST" action="emailChange.php">
+        <li class="dropdown-item"><h6>Játékok:</h6><a class="dropdown-item" href="kakukk.php">Kakukktojás megkeresése</a>
+        <li class="dropdown-item"><h6>Műveletek:</h6><a class="dropdown-item" href="passwordChange.php">Jelszó megváltoztatása</a>
+          <a class="dropdown-item" href="logout.php">Kijelentkezés<i class="glyphicon glyphicon-log-out"></i></a>
+    </div>
+  </nav>
+
+<?php
+  if(isset($_SESSION['id'])){
+    echo '<div class="login">
+      <form name="passwordChange" method="POST" action="emailChange.php">
         <p>Új Email:</p> <input type="email" name="email" required><br>
-		<p>Új Email ismét:</p> <input type="email" name="email2" required><br>
+		    <p>Új Email ismét:</p> <input type="email" name="email2" required><br>
         <br>
         <input type="submit" value="E-mail megváltoztatása">
-    </form>
-    </div>
-      ';
-        if(isset($_POST["email"])&& isset($_POST["email2"])){
+      </form>
+    </div>';
+    if(isset($_POST["email"])&& isset($_POST["email2"])){
 			changeEmail($conn,$_SESSION['id'],$_POST["email"],$_POST["email2"]);
         }
-      }
-      else echo 'Nincs jogosultság';
-    ?>
+    }
+    else echo 'Nincs jogosultság';
+?>
 </body>
 </html>

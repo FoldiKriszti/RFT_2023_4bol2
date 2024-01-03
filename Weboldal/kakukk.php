@@ -114,7 +114,7 @@ session_start();
 </div>
 <form name="megold" method="POST" action="#">
         <select name="megold">
-          <option value="0">Válaszd ki a megoldást!</option>
+          <option value="10">Válaszd ki a megoldást!</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -128,10 +128,10 @@ session_start();
     if(isset( $_POST["megold"])){
       if($_POST["megold"] == $f[5]){
 
-        echo '<script>alert("Gratulálunk, eltaláltad a helyes megfejtést!")</script>';
+        echo '<script>alert("Nem jó megoldást küldtél be, majd legközelebb!")</script>';
       }else{
         
-        echo '<script>alert("Nem jó megoldást küldtél be, majd legközelebb!")</script>';
+       echo '<script>alert("Gratulálunk, eltaláltad a helyes megfejtést!")</script>'; 
       }
     }
     if(!isset($_SESSION['id'])){

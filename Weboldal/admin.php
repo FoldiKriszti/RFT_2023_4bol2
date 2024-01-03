@@ -47,32 +47,35 @@ session_start();
               <a class="dropdown-item" href="register.php">Regisztráció</a>';
           }else{
             if(isAdmin($conn,$_SESSION["user"])){
-              echo '<li class="dropdown-item">
-                      <h6>Játékok:</h6>
-                      <a class="dropdown-item" href="kakukk.php">Kakukktojás megkeresése</a>
-                      <a class="dropdown-item" href="admin.php">Admin felület</a>
-                    <li class="dropdown-item">
-                      <h6>Műveletek:</h6>
-                        <a class="dropdown-item" href="passwordChange.php">Jelszó megváltoztatása</a>
-                        <a class="dropdown-item" href="emailChange.php">E-mail megváltoztatása</a>
-                        <a class="dropdown-item" href="logout.php">Kijelentkezés<i class="glyphicon glyphicon-log-out"></i></a>
-                    </li>
+              echo '
+              <li class="dropdown-item">
+              <h6>Játékok</h6>
+            <a class="dropdown-item" href="kakukk.php">Kakukktojás megkeresése</a>
+            <a class="dropdown-item" href="admin.php">Admin felület</a>
+              <li class="dropdown-item">
+              <h6>Műveletek:</h6>
+                <a class="dropdown-item" href="passwordChange.php">Jelszó megváltoztatása</a>
+                <a class="dropdown-item" href="emailChange.php">E-mail megváltoztatása</a>
+                <a class="dropdown-item" href="logout.php">Kijelentkezés<i class="glyphicon glyphicon-log-out"></i></a>
+            </li>
               <script>console.log("    admin   ")</script>';
             }else{
-               echo '
-                <li class="dropdown-item">
-                <h6>Játékok:</h6>
-              <a class="dropdown-item" href="kakukk.php">Kakukktojás megkeresése</a>
-                <li class="dropdown-item">
-                <h6>Műveletek:</h6>
-                  <a class="dropdown-item" href="passwordChange.php">Jelszó megváltoztatása</a>
-                  <a class="dropdown-item" href="emailChange.php">E-mail megváltoztatása</a>
-                  <a class="dropdown-item" href="logout.php">Kijelentkezés<i class="glyphicon glyphicon-log-out"></i></a>
-              </li>
-                ';
-                
-            }
+              
+              echo '
+          <li class="dropdown-item">
+          <h6>Játékok:</h6>
+        <a class="dropdown-item" href="kakukk.php">Kakukktojás megkeresése</a>
+          <li class="dropdown-item">
+          <h6>Műveletek:</h6>
+            <a class="dropdown-item" href="passwordChange.php">Jelszó megváltoztatása</a>
+            <a class="dropdown-item" href="emailChange.php">E-mail megváltoztatása</a>
+            <a class="dropdown-item" href="logout.php">Kijelentkezés<i class="glyphicon glyphicon-log-out"></i></a>
+        </li>
+          ';
         }
+          
+			
+      }
       ?>
           <?php 
     
@@ -92,13 +95,20 @@ session_start();
         echo "<div class = 'row'>";
         echo "<div class='col border'>",$v['username'],"</div>","<div class='col  border'>",$v['email'],"</div>","<div class='col border'>",$v['problema_tipus'],"</div>","<div class='col  border'>",$v['bovebb'],"</div>","<br><br>";
         echo "</div>";
+ //       $problem[0] = $v['id'];
+ //       $problem[1] = $v['username'];
+ //       $problem[2] = $v['email'];
+ //       $problem[3] = $v['problema_tipus'];
+//        $problem[4] = $v['bovebb'];
       }
     
     } catch(PDOException $e) {
       echo "Error: " . $e->getMessage();
     }
     ?>
-	</div>
 
+	</div>
+    
+    
 </body>
 </html>
