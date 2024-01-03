@@ -46,6 +46,7 @@ Talált hibák száma: 1
 - **Hiba:** A játék során nem mindig ítéli meg helyesen a rendszer, hogy a beküldött megoldás helyes volt-e vagy sem. Előfordul, hogy a helyes megoldásnál a "Nem jó megoldást küldtél be, majd legközelebb" üzenetet dobja be, a rossz megoldásnál pedig "Gratulálunk, eltaláltad a helyes megfejtést!"
 
 ## Felhasználó probléma bejelentésének tesztelése
+-   A felhasználó minden oldalon eléri a probléma bejelentési fület
 -   Ha a felhasználó üresen hagyja az egészet, úgy nem küldi el, csak lefrissíti az oldalt, az Admin részen nem jelenik meg az Admin felületen
 -   Ha a felhasználó nem tölti ki a felhasználónevet, úgy az oldal lefrissít és nem küldi el a hiba bejelentést, admin felületen nem jelenik meg.
 -   Ha a felhasználó nem tölti ki az e-mail címét, úgy az oldal lefrissít és nem küldi el a hiba bejelentést, admin felületen nem jelenik meg.
@@ -53,3 +54,25 @@ Talált hibák száma: 1
 -   Amennyiben a felhasználó a "@" jel utáni részt nem megfelelően adja meg, az alábbi hibaüzenet jelenik meg: Kérjük adja meg a "@" utáni részt is. A(z) "megadott@" cím nem teljes
 -   Amennyiben a felhasználó sikeresen megadta a felhasználó nevét és e-mail címét, kiválasztotta a problémát, az alábbi üzenet jelenik meg: A probléma bejelentés megtörtént!
 -   Ha a felhasználó 6000 karakternél többet szeretne írni, a rendszer nem enged több karaktert írni.
+
+## Admin rendszerhasználatának tesztelése
+### Admin regisztrálása
+-   A regisztrálás a főoldalon lévő bejelentkező ablak alján levő link alapján, vagy a menü pontok közül a regisztrációra kattintva betöltődik a regisztrációs oldal.
+-   Ha nem adom meg a felhasználónevet, az alábbi üzenet jelenik meg: Kérjük töltse ki ezt a mezőt.
+-   Ha nem adom meg a jelszavat, az alábbi üzenet jelenik meg: Kérjük töltse ki ezt a mezőt.
+-   Ha nem adom meg az e-mail címet, az alábbi üzenet jelenik meg: Kérjük töltse ki ezt a mezőt.
+-   Ha az E-mail címet nem a helyes formátumban adjuk meg, az alábbi üzenet jelenik meg: Kérjük, írjon egy "@" az e-mail címbe. A(z) "megadottemail" címből hiányzik a "@" jel.
+-   Ha az e-mail cím végét nem írjuk oda, az alábbi hibaüzenet jelenik meg: Kérjük adja meg a "@" utáni részt is. A(z) "megadott@" cím nem teljes
+-   Az összes mezőt helyesen kitöltve az alábbi üzenet jelenik meg: "Sikeres regisztráció!"
+
+### Admin adatainak módosítása
+**Jelszó módosítás:**
+-   Ha az Admin eltérő jelszavakat ad meg az Új jelszónál, az alábbi üzenet jelenik meg: A két megadott jelszó nem egyezik!
+-   Ha az egyik mezőt nem töltjük ki, az alábbi üzenet jelenik meg: Kérjük, töltse ki ezt a mezőt
+-   Amennyibe sikerült megadni az új jelszót helyesen, úgy az alábbi üzenet jelenik meg: Ön sikeresen megváltoztatta a jelszavát!
+
+**E-mail módosítás:**
+-   Ha az egyik e-mail mezőt nem töltjük ki, az alábbi üzenet jelenik meg: Kérjük, töltse ki ezt a mezőt
+-   Ha az E-mail címet nem a helyes formátumban adjuk meg, az alábbi üzenet jelenik meg: Kérjük, írjon egy "@" az e-mail címbe. A(z) "megadottemail" címből hiányzik a "@" jel.
+-   Ha az e-mail cím végét nem írjuk oda, az alábbi hibaüzenet jelenik meg: Kérjük adja meg a "@" utáni részt is. A(z) "megadott@" cím nem teljes
+-   Amennyibe sikerült megadni az új e-mail címet helyesen, úgy az alábbi üzenet jelenik meg: Ön sikeresen megváltoztatta az e-mail címét!
