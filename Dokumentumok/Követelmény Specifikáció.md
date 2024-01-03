@@ -14,7 +14,7 @@ A projekt célja, hogy szeretnénk egy kis szórakozást vinni a már meglévő 
 
 ## Funkcionális követelmények
 
-A program adatbázisban tárolja a kakukktojásokat, kategória szerint elmentve. A felületet csak bejelentkezés után lehet elérni, ehhez szükséges egy regisztráció, aminél meg kell adni egy felhasználónevet, egy e-mail címet és egy jelszót, ezek szintén az adatbázisban kerülnek elmentésre. A kezelő felület webes kialakítású, amellyel kakukktojásokat tud generálni a felhasználó, majd ellenőrzés után újra és újra lefrissíteni azt, amivel újabb megolható kakukktojás válik elérhetővé, mindig más és más kakukktojásos feladattal előállva. A kijelentkezés menüpontra kattintva a felhasználó kijelentkezik az oldalról, és csak újabb belépést követően tud hozzáférni az oldal tartalmához.
+A program adatbázisban tárolja a kakukktojásokat, kategória szerint elmentve. A felületet csak bejelentkezés, vagyis login után lehet elérni, ehhez szükséges egy regisztráció, aminél meg kell adni egy felhasználónevet, egy e-mail címet és egy jelszót, ezek szintén az adatbázisban kerülnek elmentésre. A kezelő felület webes kialakítású, amellyel kakukktojásokat tud generálni a felhasználó, majd ellenőrzés után újra és újra lefrissíteni azt, amivel újabb megolható kakukktojás válik elérhetővé, mindig más és más kakukktojásos feladattal előállva. A kijelentkezés menüpontra kattintva a felhasználó kijelentkezik az oldalról, és csak újabb belépést követően tud hozzáférni az oldal tartalmához.
 
 Menüpontok:
 - Kakukktojás
@@ -41,3 +41,14 @@ A felhasználók regisztrálnak és bejelentkeznek, így el tudják kezdeni a ka
 ## Követelménylista
 
 Követelménylista K01 Könnyen üzemeltethető rendszer K02 Reszponzív dizájn K03 Bejelentkezés, regisztráció, kijelentkezés K04 Kakukk tojás keresés, képekkel, szöveggel. K05 kakukk tojás eltalálásának ellenőrzése, új kakukk tojás adás, véletlenszerűen. K06 navigációs menü
+
+## Riportok
+
+- Milyen oldalt szeretnénk? Milyen funkciója legyen?
+- Azt szeretnénk elérni a kakukktojás kereső okdalunkkal, hogy a felhasználók lefolalják magukat és érezzék jól magukat az újabb és újabb feladványokkal.
+
+- A regisztráció és bejelentkezés miért szükséges?
+- Így könnyebben meg tudjuk különböztetni a felhasználókat, csak ők tudnak játszani az oldalunkon, az eredményeiket pedig egyszerűbb elmenteni.
+
+- Hány kakukktojás legyen?
+- Minél több, annál jobb, hiszen a felhasználóknak is jobb élményt nyújt, ha nem mindig ugyanazokat a képeket és feladványokat látják.
