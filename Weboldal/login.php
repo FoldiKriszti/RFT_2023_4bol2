@@ -10,7 +10,7 @@ session_start();
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles/mainstyle.css">
-    <title>Kakukktojás feladatok</title>
+    <title>Kakukktojás feladat</title>
   </head>
   <body>
 	  <?php
@@ -42,16 +42,15 @@ session_start();
 			';
         }else{
 			echo '
-      <li class="dropdown-item">
-      <h6>Játékok:</h6>
-      <a class="dropdown-item" href="kakukk.php">Kakukktojás megkeresése</a>
-      <a class="dropdown-item" href="admin.php">Admin felület</a>
-<li class="dropdown-item">
-<h6>Műveletek:</h6>
-<a class="dropdown-item" href="passwordChange.php">Jelszó megváltoztatása</a>
-<a class="dropdown-item" href="emailChange.php">E-mail megváltoztatása</a>
-<a class="dropdown-item" href="logout.php">Kijelentkezés<i class="glyphicon glyphicon-log-out"></i></a>
-</li>
+        <li class="dropdown-item">
+        <h6>Cicás dolgok:</h6>
+		  <a class="dropdown-item" href="kakukk.php">Kakukktojás keresés</a>
+        <li class="dropdown-item">
+        <h6>Profil:</h6>
+          <a class="dropdown-item" href="passwordChange.php">Jelszóváltás</a>
+          <a class="dropdown-item" href="emailChange.php">Emailváltás</a>
+          <a class="dropdown-item" href="logout.php">Kijelentkezés<i class="glyphicon glyphicon-log-out"></i></a>
+      </li>
         ';
       }
       ?>
@@ -66,11 +65,11 @@ session_start();
 <div class="wr">
 <div class="desc">
 	<div class="p-3 mb-2 bg-light text-dark">
-  Üdvözöljük weboldalunkon, ahol egyedi és izgalmas funkciókkal várjuk mind az új, mind a meglévő felhasználóinkat! Célunk egy interaktív és kihívásokkal teli felhasználói élmény nyújtása, emellett pedig fontosnak tartjuk a biztonságot és a fejlesztéseink átláthatóságát. <br> <br>
-  A weboldalunkon számos érdekes lehetőség található, kezdve a probléma jelentő oldallal, ahol felhasználóink könnyedén tudnak észrevételeket tenni, és segíteni a platformunk fejlesztésében. Emellett lehetőség van a jelszó és e-mail módosításra, így mindig biztosak lehetnek abban, hogy a személyes információik frissek és biztonságban vannak. <br> <br>
-  A kijelentkezés menüpont segítségével könnyedén zárhatják be a munkamenetüket, és adataik védelmét is biztosíthatják. Azonban a legizgalmasabb rész talán a kakukktojás oldal, ahol egyedi kihívások várnak mindenkit. A felhasználóknak öt kép közül kell kiválasztaniuk a kakukktojást, és a helyes válasz beküldésével tesztelhetik észlelési és elemző képességeiket. A sokszínű tematika garantálja, hogy mindenki megtalálja a számára megfelelő kihívást, legyen az könnyű vagy éppen nehezebb feladvány. <br> <br>
-  Az adminisztrátorok számára kialakított speciális felület lehetővé teszi számukra, hogy könnyen és hatékonyan kezeljék a felhasználók által beküldött hibaüzeneteket, biztosítva ezzel a weboldal zavartalan működését és a felhasználói élmény magas színvonalát. <br> <br>
-  Csatlakozz hozzánk, és fedezd fel a kreativitást, kihívásokat és szórakozást egy olyan weboldalon, amely mindig friss és izgalmas tartalommal vár téged! <br> <br>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		Excepteur sint occaecat cupidatat non proident.
+		Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+		(A "Főoldal" (bal fent) felíratra kattintva bármikor vissza jöhetsz ide!)
 		<h5>Készítette: A 4ből2 csapat</h5>
 	</div>
 </div>
@@ -78,6 +77,8 @@ session_start();
 <div class="cat">
 	<img src="mainkepek/icon.jpg" class="img-fluid img-thumbnail" alt="mainkepek/icon.jpg">
 </div>
+</div>
+
 
 <div class="mainlogin">
 <form name="login" method="POST" action="#">
@@ -86,7 +87,7 @@ session_start();
         <p>Jelszó:</p> <input type="password" name="password" id="passwd"><br><br>
         <input type="submit" value="Bejelentkezés">
         <br>
-        <a href="register.php" id="reg">Nem rendelkezel felhasználói fiókkal? Regisztrálj!</a>
+        <a href="register.php" id="reg">Ha nem rendelkezel fiókkal akkor regisztrálj!</a>
     </form>
 </div>
 <div class="hatar">
