@@ -37,3 +37,7 @@ Jelenleg szeretnénk kibővíteni a weboldalunkon a képek számát, hiszen a fe
 ## Igényelt üzleti folyamatok modellje
 
 A felhasználók regisztrálnak és bejelentkeznek, így el tudják kezdeni a kakukktojás keresést. Amint lefrissítik az oldalt, új kakukktojás feladatot kapnak, ami szintén megtörténik, ha a felhasználó ellenőrzi, hogy jó képet választott-e.
+
+## Követelménylista
+
+Követelménylista K01 Könnyen üzemeltethető rendszer K02 Reszponzív dizájn K03 Bejelentkezés, regisztráció, kijelentkezés K04 Kakukk tojás keresés, képekkel, szöveggel. K05 kakukk tojás eltalálásának ellenőrzése, új kakukk tojás adás, véletlenszerűen. K06 navigációs menü
