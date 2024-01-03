@@ -119,6 +119,7 @@ Eszközök, amiket a fejlesztéshez használunk:
 - GitKraken
 - GitHub
 - Trello
+- Apache
 
 ## Architekturális terv
 
